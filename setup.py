@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pandas_src_cleaning_data',
-    version='0.1.2',
+    name='cleanerPandasVol',
+    version='0.1.3',
     author='Murat Keskin & Ahmet Bagbakan & Cagla Ilhani',
     author_email='eng.murat.keskin@gmail.com',
     description='A comprehensive Python library for data preprocessing and cleaning',
-    url='https://github.com/MuratKeskin0/Term_Project_Python_Data_Cleaning',
+    url='https://github.com/MuratKeskin0/Python_Data_Project_Vol',
     packages=find_packages(),
     install_requires=[
         'pandas',
-        'numpy'
+        'numpy',
         'scikit-learn',
         'nltk',
     ],
