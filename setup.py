@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cleanerPandasVol',
-    version='0.1.3',
+    version='0.1.4',
     author='Murat Keskin & Ahmet Bagbakan & Cagla Ilhani',
     author_email='eng.murat.keskin@gmail.com',
     description='A comprehensive Python library for data preprocessing and cleaning',

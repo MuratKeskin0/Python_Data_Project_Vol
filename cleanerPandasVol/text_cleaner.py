@@ -10,6 +10,7 @@ class TextCleaner:
     def __init__(self, df, text_column):
         self.df = df
         self.text_column = text_column
+        self.df[self.text_column] = self.df[self.text_column].fillna('')
 
     def remove_stopwords(self):
         stop_words = set(stopwords.words('english'))
